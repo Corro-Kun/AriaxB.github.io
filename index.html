@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RAIZAPP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Londrina+Shadow&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Fjalla+One&family=Londrina+Shadow&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Fjalla+One&family=Londrina+Shadow&family=Patua+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Arvo:wght@700&family=Fjalla+One&family=Londrina+Shadow&family=Patua+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="RAIZAPProjo.png" alt="">
+        <div class="button-container">
+            <div class="button-position">
+                <button name="iniciar_sesion" type="button"><a href="iniciar-sesion.html"><strong>INICIAR SESION</strong></a></button>
+                <button name="iniciar_sesion" type="button"><a href="formulario.html"><strong>REGISTRATE</strong></a></button>
+            </div>
+        </div>
+        <a href="#"><img src="usuario.png" alt="icono_usuario"></a>
+    </header>
+    <nav class="menu-container">
+        <ul><a href="#">inicio</a></ul>
+        <ul><a href="#">catalogos</a></ul>
+        <ul><a href="#">productos</a></ul>
+        <ul><a href="#">comunidad</a></ul>
+        <ul><a href="#">galeria</a></ul>
+        <ul><a href="#">nosotros</a></ul>
+    </nav>
+    <div class="container-buscador">
+        <input class="buscador" type="search" id="busqueda" placeholder="buscar producto o catalogo">
+       <button> <img src="vidrio-de-aumento.png" alt="icono_buscador"></button>
+    </div>
+    <section class="frase1">
+       <img src="bannerdixon2.jpg" alt="">
+    </section>
+    <section class="productos-container">
+        <article class="prod1">
+            <div>
+                <img src="producto_1.png" alt="">
+                <h1>COLLAR</h1>
+                <span>50.000 COP</span><br>
+                <button>ver mas</button>
+            </div>
+        </article>
+        <article class="prod2">
+            <div class="details">
+                <img src="producto_2.png" alt="">
+                <h1>SOMBRERO</h1>
+                <span>30.000 COP</span> <br>
+                <button>ver mas</button>
+            </div>
+        </article>
+        <article class="prod3">
+            <div>
+                <img src="producto_3.png" alt="">
+                <h1>PRODUCTO 1</h1>
+                <span>40.000 COP</span> <br>
+                <button>ver mas</button>
+            </div>
+        </article>
+        <article class="prod4">
+            <div>
+                <img src="producto_4.png" alt="">
+                <h1>PRODUCTO 1</h1>
+                <span>10.000 COP</span> <br>
+                <button>ver mas</button>
+            </div>
+        </article>
+    </section>
+    <section class="productos-container">
+        <article class="prod5">
+            <div>
+                <img src="sofa.png" alt="">
+                <h1>SOFA</h1>
+                <span>100.000 COP</span><br>
+                <button>ver mas</button>
+            </div>
+        </article>
+        <article class="prod6">
+            <div class="details">
+                <img src="producto_3.png" alt="">
+                <h1>SHAMPOO</h1>
+                <span>30.000 COP</span> <br>
+                <button>ver mas</button>
+            </div>
+        </article>
+        <article class="prod7">
+            <div>
+                <img src="producto_7.png" alt="">
+                <h1>RUANA</h1>
+                <span>40.000 COP</span> <br>
+                <button>ver mas</button>
+            </div>
+        </article>
+        <article class="prod8">
+            <div>
+                <img src="producto_4.png" alt="">
+                <h1>SUETER</h1>
+                <span>90.000 COP</span> <br>
+                <button>ver mas</button>
+            </div>
+        </article>
+    </section>
+    <div class="title-catalogos">
+        <a href="#"><h1>MIRA MAS CATALOGOS</h1></a>
+    </div>
+   <div>
+    <div id="carrusel-contenido">
+        <div id="carrusel-caja">
+            <div class="carrusel-elemento">
+                <img class="imagenes" src="poster.png" >
+            </div>
+            <div class="carrusel-elemento">   
+                <img class="imagenes" src="poster.png">
+            </div>
+            <div class="carrusel-elemento">   
+                <img class="imagenes" src="poster.png">                        
+            </div>
+        </div>
+    </div>
+    <div class="container-form">
+        <form action="">
+            <span>escribe tus inquietudes o reclamos para poder mejorar
+            </span>
+            <div class="camp1">
+                <label for="nombre" id="nombre">nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="escribe tu nombre">
+            </div>
+            <div class="camp2">
+                <label for="correo" id="correo">correo</label>
+                <input type="email" name="correo" id="correo" placeholder="escribe tu correo">
+            </div>
+            <div class="camp3">
+               <textarea name="pqr" id="pqr" cols="60" rows="15" placeholder="escribe tu queja o peticion"></textarea>
+            </div>
+            <div class="caja-boton">
+                <button name="enviar" type="submit">ENVIAR</button>
+            </div>
+        </form>
+    </div>
+        
+        <footer>
+            <h1>todos los derechos reservados</h1>
+            <div>
+                <h1>visita nuestras redes sociales</h1>
+                <div>
+                    <img src="#" alt="">
+                    <img src="#" alt="">
+                    <img src="#" alt="">
+                </div>
+            </div>
+        </footer>
+   </div>
+</body>
+</html>
