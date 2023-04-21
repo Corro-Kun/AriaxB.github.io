@@ -2,6 +2,7 @@ body{
     margin:0;
     padding: 0;
     background-color:#fff;
+    box-sizing: border-box;
 }
 header{
     box-sizing: border-box;
@@ -9,6 +10,8 @@ header{
     background-color:#fff;
     display: flex;
     position: sticky;
+    align-items: center;
+    justify-content: space-between;
 }
 header>img{
 width:650px;
@@ -59,13 +62,15 @@ padding-left: 80px;
 .header>a>img{
     width:40px;
     height: 40px;
-    padding-left: 130px;
     padding-top: 60px;
 }
 .menu-container{
-    width:100%;
+    width:110%;
     height: 85px;
     background-color:#b54330;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .menu-container>ul{
     font-size: 30px;
@@ -82,6 +87,7 @@ padding-left: 80px;
 }
 .container-buscador{
     background-color: transparent;
+    display: flex;
     width: 39%;
     height: 70px;
     background-color: #b54330;
@@ -89,6 +95,8 @@ padding-left: 80px;
     border-bottom: 4px solid #b54330 ;
     margin-left:33%;
     margin-top:45px;
+    align-items: center;
+    justify-content: center;
 }
 .container-buscador>input{
     flex:1;
@@ -98,19 +106,18 @@ padding-left: 80px;
     margin: 0;
     padding: 10px;
 }
-.container-buscador>button{
-  width:auto;
-  height: auto;
-  background-color: transparent;
-  margin-top: 3px;
-  cursor:auto;
-}
 .container-buscador>input:focus{
     background-color:lightgray;
 }
-.container-buscador>button>img{
-    width:35px;
-    height: 35px;
+.container-buscador button{
+    border: transparent;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+}
+.container-buscador img{
+    height: 100%;
+    width: 100%;
 }
 .container-buscador>input::placeholder{
     padding-left: 30%;
