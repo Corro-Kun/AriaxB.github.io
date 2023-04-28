@@ -8,7 +8,7 @@
         Soy Corro-Kun un estudiante y me gusta el desarrollo y diseño de todo tipo, excepto el móvil, lo odio >:v
         <br>
         <br>
-        <img src="Idol.gif" alt="Ai Otho">
+        <img src="https://github.com/Corro-Kun/Corro-Kun/blob/main/Idol.gif" alt="Ai Otho">
         <br>
         <br>
         ~ Corro-Kun ~
