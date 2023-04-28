@@ -11,7 +11,7 @@
         <img src="Idol.gif" alt="Ai Otho">
         <br>
         <br>
-        ~ Corro-Kun ~
+        +~ Corro-Kun ~+
     </b>
 </p>
 
